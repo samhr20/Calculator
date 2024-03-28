@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.wrapper{
+    background: black;
+    margin: 50px auto;
+    width: 400px;
+    width: 400px;
+    border-radius: 20px;
+    padding: 5% 1.5% 1% 1.5%;
+}
+
+input{
+    width: 100%;
+    padding: 8px;
+    text-align: right;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 60px;
+    background: transparent;
+}
+
+.row{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10px 0;
+}
+
+button{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    font-size: 28px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+#acbtn , #zerobtn{
+    width: 170px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background: #9e9e9e;
+}
+#modulusbtn{
+    background: #9e9e9e;
+}
+
+#dividebtn , #multiplybtn , #plusbtn , #minusbtn , #equalbtn{
+    background: #f79013;
+    color: white;
+}
+#acbtn:active , #zerobtn:active , #modulusbtn:active{
+    background: #7f6a6a;
+}
+
+#dividebtn:active , #multiplybtn:active , #plusbtn:active , #minusbtn:active , #equalbtn:active{
+    background: #c06900;
+    color: white;
+}
+
+#onebtn , #twobtn , #threebtn , #fourbtn , #fivebtn , #sixbtn , #sevenbtn , #eightbtn , #ninebtn , #zerobtn , #decimalbtn {
+    background: #333333;
+    color: white;
+}
+
+#onebtn:active , #twobtn:active , #threebtn:active , #fourbtn:active , #fivebtn:active , #sixbtn:active , #sevenbtn:active , #eightbtn:active , #ninebtn:active , #zerobtn:active , #decimalbtn:active {
+    background: #211f1f;
+    color: white;
+}
